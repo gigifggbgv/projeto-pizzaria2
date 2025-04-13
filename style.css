@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap');
+
+/* Fonte padrão e estilo do corpo */
+body {
+    font-family: 'lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b94040;
+    color: #300101;
+}
+h1, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* contêiner do formulário */
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: #d16060;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #94010156;
+}
+
+/* títulos do formulário */
+h3 {
+    text-align: center;
+    color: #7c1313;
+    margin-bottom: 20px;
+}
+
+/* os campos de entrada */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #c79494;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* botão de envio */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #da2a2a;
+    color: #f78d8d;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #da2a2a;
+}
+
+/*  home */
+header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+header h1 {
+    color: rgb(131, 6, 6);
+}
+
+header p {
+    color: #580404cc;
+    font-size: 18px;
+}
+
+.menu, .promotions {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #f78d8d;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(131, 6, 6);
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgb(131, 6, 6);
+    color: rgb(255, 135, 135);
+}
